@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Button } from "@/components/ui/button"
 
 export default function Home() {
@@ -8,7 +7,7 @@ export default function Home() {
         Hello Lingo!
       </p>
 
-      <Button size="lg" >Click me</Button>
+      <Button size="lg" variant="secondary">Click me</Button>
     </div>
   );
 }
